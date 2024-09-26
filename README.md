@@ -2,6 +2,12 @@
 
 React helpers for Pragmatic Drag and Drop
 
+## Installation
+
+```bash
+npm i pragmatic-dnd-helpers
+```
+
 ## Droppable Component
 
 The `Droppable` component is a React component designed to facilitate drag-and-drop interactions using the Atlaskit pragmatic drag-and-drop library. It provides a simple interface to handle drag events within a specified droppable area.
