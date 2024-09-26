@@ -1,12 +1,11 @@
 import { dropTargetForElements } from "@atlaskit/pragmatic-drag-and-drop/element/adapter";
 import { memo, useEffect, useRef, useState } from "react";
 import invariant from "tiny-invariant";
-import type { DroppableChildrenParams } from "../types";
+import type { DroppableChildrenParams } from "../types.ts";
 import type {
   DropTargetGetFeedbackArgs,
   ElementDragType,
-} from "@atlaskit/pragmatic-drag-and-drop/dist/types/internal-types";
-
+} from "@atlaskit/pragmatic-drag-and-drop/dist/types/internal-types.js";
 interface DroppableProps {
   children: ({ isDraggedOver, droppableRef }: DroppableChildrenParams) => React.ReactNode;
   params?: {

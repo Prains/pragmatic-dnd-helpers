@@ -1,2 +1,2 @@
-export * from "./draggable";
-export * from "./droppable";
+export * from "./draggable.tsx";
+export * from "./droppable.tsx";

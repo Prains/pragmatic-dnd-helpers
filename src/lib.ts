@@ -1,7 +1,7 @@
 import type {
   ElementDragType,
   MonitorArgs,
-} from "@atlaskit/pragmatic-drag-and-drop/dist/types/internal-types";
+} from "@atlaskit/pragmatic-drag-and-drop/dist/types/internal-types.js";
 import { monitorForElements } from "@atlaskit/pragmatic-drag-and-drop/element/adapter";
 import { useEffect } from "react";
 
