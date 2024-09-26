@@ -1,4 +1,12 @@
-export * from "./lib.ts";
-export * from "./types.ts";
+import * as lib from "./lib.ts";
+import * as types from "./types.ts";
 //@ts-ignore
-export * from "./ui";
+import * as ui from "./ui";
+
+const allExports = {
+  ...lib,
+  ...types,
+  ...ui,
+};
+
+export default allExports;
